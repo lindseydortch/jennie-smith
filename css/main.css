@@ -1,0 +1,67 @@
+* {
+  padding: 1%;
+  margin: 0;
+
+}
+
+section {
+  min-height: 100vh;
+}
+
+.padded {
+  padding: 5%;
+}
+
+/* ---- Typography ----*/
+
+body {
+  font-family: 'Lato';
+  color: rgb(60,60,65);
+}
+
+h1{
+  margin-bottom: 0.5rem;
+  font-size: 3rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+h2 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  font-weight: 300;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+p{
+  margin-bottom: 1rem;
+  font-weight: 400;
+}
+
+nav a {
+  text-decoration: none;
+  color: inherit;
+  padding: 1rem;
+  margin-right: 0.5rem;
+  display: incline-block;
+  border: 1px solid rgb(200, 200, 200);
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: rgb(120,120,125);
+  border-radius: 8px;
+}
+
+nav a: hover {
+   Color: teal;
+   border-color: teal;
+}
+
+/* ---- Images ----*/
+
+.bg-image {
+  background-image: url('https://pitch.instituteofcode.com/eon-2.jpg');
+  background-size: cover;
+  background-position: center;
+}
